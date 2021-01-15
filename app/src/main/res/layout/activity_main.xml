@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/category_numbers"
+        android:text="Numbers"
+        android:padding="25sp"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="#FFFFFC"
+        android:textAllCaps="true"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="210dp"
+        android:padding="25sp"
+        android:textColor="#FFFFFC"
+        android:background="@color/category_family"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:text="Family Members"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/colors"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginLeft="210dp"
+        android:background="@color/category_colors"
+        android:padding="25sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:text="Colors"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFC"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/phrases"
+        android:layout_width="200dp"
+        android:textStyle="bold"
+        android:layout_height="130dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="257dp"
+        android:background="@color/category_phrases"
+        android:padding="25sp"
+        android:text="Phrases"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFC"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/fruits"
+        android:layout_width="200dp"
+        android:layout_height="310dp"
+        android:layout_marginTop="393dp"
+        android:layout_marginLeft="5dp"
+        android:background="#D6B301"
+        android:padding="25sp"
+        android:text="Fruits"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#F6F6F0"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/months"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginBottom="321dp"
+        android:layout_marginLeft="210dp"
+        android:background="#A6224F"
+        android:textStyle="bold"
+        android:padding="25sp"
+        android:text="Months"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFC"
+        android:gravity="center" />
+
+</RelativeLayout>

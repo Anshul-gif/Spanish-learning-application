@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.multlipages">
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher2"
+        android:label="@string/spanish"
+        android:roundIcon="@mipmap/ic_launcher2_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Phrases" android:label="Phrases"/>
+        <activity android:name=".colors" android:label="Colors" />
+        <activity android:name=".Family_Members" android:label="Family Members" />
+        <activity android:name=".Numbers" android:label="Numbers"/>
+        <activity android:name=".Fruits" android:label="Fruits"/>
+        <activity android:name=".Months" android:label="Months"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
